@@ -408,8 +408,8 @@ class AuthorAddComponent extends _core_components_handle_alert__WEBPACK_IMPORTED
         authorModel.description = this.authorForm.value.description;
         authorModel.name = this.authorForm.value.name;
         authorModel.diedDate = this.authorForm.value.diedDate;
-        if (authorModel.diedDate == null) {
-            authorModel.diedDate = new Date('1/1/0001 12:00:00 AM');
+        if (authorModel.diedDate == null || authorModel.diedDate.toString() === '') {
+            authorModel.diedDate = new Date('0001-01-01');
         }
         this.authorService.AddAuthor(authorModel).subscribe(value => {
             this.router.navigate(['authors']);
