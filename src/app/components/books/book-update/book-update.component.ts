@@ -50,7 +50,12 @@ export class BookUpdateComponent extends HandleAlert implements OnInit {
     bookUploadModel.name = this.bookForm.value.name;
     bookUploadModel.price = this.bookForm.value.price;
     bookUploadModel.image = this.bookForm.value.image;
-    this.bookService.addBook(bookUploadModel).subscribe(value => this.message = 'Book was updated');
+    this.bookService.addBook(bookUploadModel).subscribe(value => {
+      this.router.navigate(['books']);
+    },
+      error => {
+      this.message = 'Error on server side.';
+    });
   }
 
   private initForm(): void {

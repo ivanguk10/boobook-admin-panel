@@ -44,7 +44,12 @@ export class AuthorUpdateComponent extends HandleAlert implements OnInit {
       authorModel.diedDate = new Date('0001-01-01');
     }
 
-    this.authorService.UpdateAuthor(authorModel).subscribe(value => this.message = 'Author was updated');
+    this.authorService.UpdateAuthor(authorModel).subscribe(value => {
+      this.router.navigate(['authors']);
+    },
+      error => {
+      this.message = 'Error on server side.';
+    });
   }
 
   private initForm(): void {

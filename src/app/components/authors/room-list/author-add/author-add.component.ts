@@ -34,7 +34,12 @@ export class AuthorAddComponent extends HandleAlert implements OnInit {
       authorModel.diedDate = new Date('1/1/0001 12:00:00 AM');
     }
 
-    this.authorService.AddAuthor(authorModel).subscribe(value => this.message = 'Author was added');
+    this.authorService.AddAuthor(authorModel).subscribe(value => {
+      this.router.navigate(['authors']);
+    },
+      error => {
+      this.message = 'Error on server side.';
+    });
   }
   private initForm(): void {
     this.authorForm = new FormGroup({

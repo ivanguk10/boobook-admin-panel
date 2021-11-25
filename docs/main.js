@@ -411,7 +411,11 @@ class AuthorAddComponent extends _core_components_handle_alert__WEBPACK_IMPORTED
         if (authorModel.diedDate == null) {
             authorModel.diedDate = new Date('1/1/0001 12:00:00 AM');
         }
-        this.authorService.AddAuthor(authorModel).subscribe(value => this.message = 'Author was added');
+        this.authorService.AddAuthor(authorModel).subscribe(value => {
+            this.router.navigate(['authors']);
+        }, error => {
+            this.message = 'Error on server side.';
+        });
     }
     initForm() {
         this.authorForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroup"]({
@@ -1416,7 +1420,11 @@ class AuthorUpdateComponent extends _core_components_handle_alert__WEBPACK_IMPOR
         if (authorModel.diedDate == null || authorModel.diedDate.toString() === '') {
             authorModel.diedDate = new Date('0001-01-01');
         }
-        this.authorService.UpdateAuthor(authorModel).subscribe(value => this.message = 'Author was updated');
+        this.authorService.UpdateAuthor(authorModel).subscribe(value => {
+            this.router.navigate(['authors']);
+        }, error => {
+            this.message = 'Error on server side.';
+        });
     }
     initForm() {
         this.authorForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroup"]({
@@ -1814,7 +1822,11 @@ class BookUpdateComponent extends _core_components_handle_alert__WEBPACK_IMPORTE
         bookUploadModel.name = this.bookForm.value.name;
         bookUploadModel.price = this.bookForm.value.price;
         bookUploadModel.image = this.bookForm.value.image;
-        this.bookService.addBook(bookUploadModel).subscribe(value => this.message = 'Book was updated');
+        this.bookService.addBook(bookUploadModel).subscribe(value => {
+            this.router.navigate(['books']);
+        }, error => {
+            this.message = 'Error on server side.';
+        });
     }
     initForm() {
         this.bookForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroup"]({
