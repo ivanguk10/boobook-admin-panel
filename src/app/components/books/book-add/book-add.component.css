@@ -36,19 +36,23 @@
     font-weight: 900;
 }
 
-.book-form{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-bottom: 15px;
+.book-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 15px;
 }
 
-.btn{
-  width: 100%;
+.btn {
+    width: 100%;
+}
+
+#bookImg {
+    width: 330px;
 }
 
 @media all and (max-width: 1000px) {
-  .book-form{
-    flex-direction: column;
-  }
+    .book-form {
+        flex-direction: column;
+    }
 }
