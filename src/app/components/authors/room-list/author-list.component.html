@@ -1,0 +1,6 @@
+<div>
+    <button class="btn btn-outline-secondary add-button" (click)="onClickAdd()">Add new</button>
+    <div>
+        <app-author-item *ngFor="let author of authors; let i = index;" [author]="author" (OnDelete)="onDelete(author.id)"> </app-author-item>
+    </div>
+</div>

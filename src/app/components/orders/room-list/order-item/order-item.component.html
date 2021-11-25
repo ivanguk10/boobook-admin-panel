@@ -1,0 +1,23 @@
+<div *ngIf="order.status == 1" class="list-group-item field" xmlns="http://www.w3.org/1999/html">
+    <div class="room-field">
+        <div class="text-part">
+          <p><b>Name:</b> {{order.name}} </p>
+          <p><b>Phone:</b> {{order.phone}}</p>
+          <p><b>Final Cost:</b> {{order.finalCost}}</p>
+          <p><b>Cost:</b> {{order.cost}}</p>
+          <p><b>Bonuses:</b> {{order.bonuses}}</p>
+          <p><b>City:</b> {{order.address.city}}</p>
+          <p><b>Street:</b> {{order.address.street}}</p>
+          <p><b>House:</b> {{order.address.house}}</p>
+          <p><b>Flat:</b> {{order.address.flat}}</p>
+          <p><b>Code:</b> {{order.address.code}}</p>
+          <p><b>Books:</b></p>
+            <ul>
+              <li *ngFor="let book of order.books">
+                <span>{{book.name}} ({{book.count}} copy)<br/></span>
+              </li>
+            </ul>
+            <button class="btn btn-outline-success" type="button" (click)="onDeliveredClick()">Set as delivered</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.form-text {
+    color: red;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+    color: red;
+}
+
+.row{
+  flex-direction: column;
+}
+
+.signup-field a{
+  font-size: xx-large;
+}

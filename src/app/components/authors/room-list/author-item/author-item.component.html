@@ -1,0 +1,12 @@
+<div class="list-group-item field">
+    <div class="room-field">
+        <div class="text-part">
+            <p> <b>Name:</b> {{author.name}} </p>
+            <p> <b>Description:</b> {{author.description}}</p>
+            <p> <b>Born Date:</b> {{getBornDate()}}</p>
+            <p *ngIf="IsDead()"> <b>Died Date:</b> {{getDiedDate()}}</p>
+            <button class="btn btn-outline-success" type="button" (click)="onUpdateClick()">Update</button>
+            <button class="btn btn-outline-danger" style="margin-top: 5px" type="button" (click)="onDeleteClick()">Delete</button>
+        </div>
+    </div>
+</div>

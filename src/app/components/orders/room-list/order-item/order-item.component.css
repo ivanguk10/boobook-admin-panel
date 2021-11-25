@@ -1,0 +1,33 @@
+.field {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.text-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.room-field {
+}
+
+.text-part {
+
+}
+
+.image-part {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.image-part img {
+  width: 90%;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 900;
+}

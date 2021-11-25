@@ -1,0 +1,14 @@
+.pag {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.page-a {
+    border: 2px solid blueviolet;
+}
+
+.add-button{
+  margin: 10px auto;
+  width: 80%;
+  display: block;
+}

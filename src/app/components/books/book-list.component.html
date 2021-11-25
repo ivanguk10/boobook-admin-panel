@@ -1,0 +1,6 @@
+<div>
+    <div>
+        <button class="btn btn-outline-secondary add-button" (click)="onClickAdd()">Add new</button>
+        <app-room-item *ngFor="let book of books; let i = index;" [book]="book" (OnDelete)="onDelete(book.id)"> </app-room-item>
+    </div>
+</div>
