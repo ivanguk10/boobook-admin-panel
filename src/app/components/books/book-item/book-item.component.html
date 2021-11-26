@@ -1,15 +1,15 @@
 <div class="list-group-item field">
     <div class="room-field">
         <div class="image-part">
-          <img src="data:image/png;base64,{{book.image}}" alt="book image">
+            <img class="book-img" src="data:image/png;base64,{{book.image}}" alt="book image">
         </div>
         <div class="text-part">
-          <p><b>Book name:</b> {{book.name}} </p>
-          <p><b>Description:</b> {{book.description}}</p>
-          <p><b>Price:</b> {{book.price}}</p>
-          <p><b>Author:</b> {{book.author.name}}</p>
-          <button class="btn btn-outline-success" type="button" (click)="onUpdateClick()">Update</button>
-          <button class="btn btn-outline-danger" style="margin-top: 10px" type="button" (click)="onDeleteClick()">Delete</button>
+            <p><b>Book name:</b> {{book.name}} </p>
+            <p><b>Description:</b> {{book.description}}</p>
+            <p><b>Price:</b> {{book.price}}</p>
+            <p><b>Author:</b> {{book.author.name}}</p>
+            <button class="btn btn-outline-success" type="button" (click)="onUpdateClick()">Update</button>
+            <button class="btn btn-outline-danger" style="margin-top: 10px" type="button" (click)="onDeleteClick()">Delete</button>
         </div>
     </div>
 
