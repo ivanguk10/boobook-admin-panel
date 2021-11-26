@@ -1,6 +1,6 @@
 .field {
-  width: 80%;
-  margin: 10px auto;
+    width: 80%;
+    margin: 10px auto;
 }
 
 .text-part {
@@ -20,8 +20,7 @@
     width: 30%;
 }
 
-.image-part {
-}
+.image-part {}
 
 .image-part img {
     width: 300px;
@@ -30,4 +29,16 @@
 .price {
     font-size: 30px;
     font-weight: 900;
+}
+
+@media all and (max-width: 700px) {
+    .book-img {
+        width: 200px !important;
+    }
+    .text-part {
+        width: 95%
+    }
+    .room-field {
+        flex-direction: column
+    }
 }

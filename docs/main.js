@@ -87,7 +87,7 @@ BookItemComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.book.price, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.book.author.name, "");
-    } }, styles: [".field[_ngcontent-%COMP%] {\n  width: 80%;\n  margin: 10px auto;\n}\n\n.text-part[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\n.room-field[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.text-part[_ngcontent-%COMP%] {\n    width: 30%;\n}\n\n.image-part[_ngcontent-%COMP%] {\n}\n\n.image-part[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 300px;\n}\n\n.price[_ngcontent-%COMP%] {\n    font-size: 30px;\n    font-weight: 900;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvb2staXRlbS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsVUFBVTtFQUNWLGlCQUFpQjtBQUNuQjs7QUFFQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLG1CQUFtQjtJQUNuQiw2QkFBNkI7SUFDN0IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksVUFBVTtBQUNkOztBQUVBO0FBQ0E7O0FBRUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJib29rLWl0ZW0uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5maWVsZCB7XG4gIHdpZHRoOiA4MCU7XG4gIG1hcmdpbjogMTBweCBhdXRvO1xufVxuXG4udGV4dC1wYXJ0IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi5yb29tLWZpZWxkIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLnRleHQtcGFydCB7XG4gICAgd2lkdGg6IDMwJTtcbn1cblxuLmltYWdlLXBhcnQge1xufVxuXG4uaW1hZ2UtcGFydCBpbWcge1xuICAgIHdpZHRoOiAzMDBweDtcbn1cblxuLnByaWNlIHtcbiAgICBmb250LXNpemU6IDMwcHg7XG4gICAgZm9udC13ZWlnaHQ6IDkwMDtcbn1cbiJdfQ== */"] });
+    } }, styles: [".field[_ngcontent-%COMP%] {\n    width: 80%;\n    margin: 10px auto;\n}\n\n.text-part[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\n.room-field[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.text-part[_ngcontent-%COMP%] {\n    width: 30%;\n}\n\n.image-part[_ngcontent-%COMP%] {}\n\n.image-part[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 300px;\n}\n\n.price[_ngcontent-%COMP%] {\n    font-size: 30px;\n    font-weight: 900;\n}\n\n@media all and (max-width: 700px) {\n    .book-img[_ngcontent-%COMP%] {\n        width: 200px !important;\n    }\n    .text-part[_ngcontent-%COMP%] {\n        width: 95%\n    }\n    .room-field[_ngcontent-%COMP%] {\n        flex-direction: column\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvb2staXRlbS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksVUFBVTtJQUNWLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLG1CQUFtQjtJQUNuQiw2QkFBNkI7SUFDN0IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksVUFBVTtBQUNkOztBQUVBLGFBQWE7O0FBRWI7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJO1FBQ0ksdUJBQXVCO0lBQzNCO0lBQ0E7UUFDSTtJQUNKO0lBQ0E7UUFDSTtJQUNKO0FBQ0oiLCJmaWxlIjoiYm9vay1pdGVtLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZmllbGQge1xuICAgIHdpZHRoOiA4MCU7XG4gICAgbWFyZ2luOiAxMHB4IGF1dG87XG59XG5cbi50ZXh0LXBhcnQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuLnJvb20tZmllbGQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4udGV4dC1wYXJ0IHtcbiAgICB3aWR0aDogMzAlO1xufVxuXG4uaW1hZ2UtcGFydCB7fVxuXG4uaW1hZ2UtcGFydCBpbWcge1xuICAgIHdpZHRoOiAzMDBweDtcbn1cblxuLnByaWNlIHtcbiAgICBmb250LXNpemU6IDMwcHg7XG4gICAgZm9udC13ZWlnaHQ6IDkwMDtcbn1cblxuQG1lZGlhIGFsbCBhbmQgKG1heC13aWR0aDogNzAwcHgpIHtcbiAgICAuYm9vay1pbWcge1xuICAgICAgICB3aWR0aDogMjAwcHggIWltcG9ydGFudDtcbiAgICB9XG4gICAgLnRleHQtcGFydCB7XG4gICAgICAgIHdpZHRoOiA5NSVcbiAgICB9XG4gICAgLnJvb20tZmllbGQge1xuICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXG4gICAgfVxufSJdfQ== */"] });
 
 
 /***/ }),
@@ -746,22 +746,22 @@ function BookAddComponent_div_7_Template(rf, ctx) { if (rf & 1) {
 } }
 function BookAddComponent_span_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "image is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Image is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookAddComponent_span_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "name is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Name is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookAddComponent_span_23_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "description is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Description is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookAddComponent_span_28_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "price is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Price is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookAddComponent_option_33_Template(rf, ctx) { if (rf & 1) {
@@ -776,7 +776,7 @@ function BookAddComponent_option_33_Template(rf, ctx) { if (rf & 1) {
 } }
 function BookAddComponent_span_34_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "author is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Author is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 class BookAddComponent extends _core_components_handle_alert__WEBPACK_IMPORTED_MODULE_2__["HandleAlert"] {
@@ -1757,22 +1757,22 @@ function BookUpdateComponent_app_alert_1_Template(rf, ctx) { if (rf & 1) {
 } }
 function BookUpdateComponent_span_15_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "image is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Image is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookUpdateComponent_span_21_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "name is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Name is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookUpdateComponent_span_27_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "description is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Description is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookUpdateComponent_span_33_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "price is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Price is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 function BookUpdateComponent_option_39_Template(rf, ctx) { if (rf & 1) {
@@ -1787,7 +1787,7 @@ function BookUpdateComponent_option_39_Template(rf, ctx) { if (rf & 1) {
 } }
 function BookUpdateComponent_span_40_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "author is invalid or not provided");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](1, "Author is invalid or not provided");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } }
 class BookUpdateComponent extends _core_components_handle_alert__WEBPACK_IMPORTED_MODULE_2__["HandleAlert"] {
@@ -2254,7 +2254,7 @@ BookListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.books);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _book_item_book_item_component__WEBPACK_IMPORTED_MODULE_4__["BookItemComponent"]], styles: [".pag[_ngcontent-%COMP%] {\n    width: 200px;\n    margin: 0 auto;\n}\n\n.page-a[_ngcontent-%COMP%] {\n    border: 2px solid blueviolet;\n}\n\n.add-button[_ngcontent-%COMP%]{\n  margin: 10px auto;\n  width: 80%;\n  display: block;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvb2stbGlzdC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSw0QkFBNEI7QUFDaEM7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsVUFBVTtFQUNWLGNBQWM7QUFDaEIiLCJmaWxlIjoiYm9vay1saXN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnIHtcbiAgICB3aWR0aDogMjAwcHg7XG4gICAgbWFyZ2luOiAwIGF1dG87XG59XG5cbi5wYWdlLWEge1xuICAgIGJvcmRlcjogMnB4IHNvbGlkIGJsdWV2aW9sZXQ7XG59XG5cbi5hZGQtYnV0dG9ue1xuICBtYXJnaW46IDEwcHggYXV0bztcbiAgd2lkdGg6IDgwJTtcbiAgZGlzcGxheTogYmxvY2s7XG59XG4iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _book_item_book_item_component__WEBPACK_IMPORTED_MODULE_4__["BookItemComponent"]], styles: [".pag[_ngcontent-%COMP%] {\n    width: 200px;\n    margin: 0 auto;\n}\n\n.page-a[_ngcontent-%COMP%] {\n    border: 2px solid blueviolet;\n}\n\n.add-button[_ngcontent-%COMP%] {\n    margin: 10px auto;\n    width: 80%;\n    display: block;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvb2stbGlzdC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSxpQkFBaUI7SUFDakIsVUFBVTtJQUNWLGNBQWM7QUFDbEIiLCJmaWxlIjoiYm9vay1saXN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFnIHtcbiAgICB3aWR0aDogMjAwcHg7XG4gICAgbWFyZ2luOiAwIGF1dG87XG59XG5cbi5wYWdlLWEge1xuICAgIGJvcmRlcjogMnB4IHNvbGlkIGJsdWV2aW9sZXQ7XG59XG5cbi5hZGQtYnV0dG9uIHtcbiAgICBtYXJnaW46IDEwcHggYXV0bztcbiAgICB3aWR0aDogODAlO1xuICAgIGRpc3BsYXk6IGJsb2NrO1xufSJdfQ== */"] });
 
 
 /***/ }),

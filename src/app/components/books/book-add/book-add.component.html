@@ -11,25 +11,25 @@
                     <div class="form-group">
                         <label for="image">Image: </label>
                         <input type="file" id="image" class="form-control" name="image" accept=".png, .jpg, .jpeg" (change)="onFileSelect($event)">
-                        <span class="form-text" *ngIf="!bookForm.get('image').valid && bookForm.get('image').touched">image is invalid or not provided</span>
+                        <span class="form-text" *ngIf="!bookForm.get('image').valid && bookForm.get('image').touched">Image is invalid or not provided</span>
                     </div>
 
                     <div class="form-group">
                         <label for="name">Name: </label>
                         <input type="text" id="name" class="form-control" name="name" formControlName="name">
-                        <span class="form-text" *ngIf="!bookForm.get('name').valid && bookForm.get('name').touched">name is invalid or not provided</span>
+                        <span class="form-text" *ngIf="!bookForm.get('name').valid && bookForm.get('name').touched">Name is invalid or not provided</span>
                     </div>
 
                     <div class="form-group">
                         <label for="description">Description: </label>
                         <textarea id="description" class="form-control" name="description" formControlName="description"></textarea>
-                        <span class="form-text" *ngIf="!bookForm.get('description').valid && bookForm.get('description').touched">description is invalid or not provided</span>
+                        <span class="form-text" *ngIf="!bookForm.get('description').valid && bookForm.get('description').touched">Description is invalid or not provided</span>
                     </div>
 
                     <div class="form-group">
                         <label for="price">Price: </label>
                         <input type="text" id="price" class="form-control" name="price" formControlName="price">
-                        <span class="form-text" *ngIf="!bookForm.get('price').valid && bookForm.get('price').touched">price is invalid or not provided</span>
+                        <span class="form-text" *ngIf="!bookForm.get('price').valid && bookForm.get('price').touched">Price is invalid or not provided</span>
                     </div>
 
                     <div class="form-group">
@@ -37,7 +37,7 @@
                         <select id="authorId" class="form-control" name="authorId" formControlName="authorId">
               <option *ngFor="let author of authors" [value]="author.id">{{author.name}}</option>
             </select>
-                        <span class="form-text" *ngIf="!bookForm.get('authorId').valid && bookForm.get('authorId').touched">author is invalid or not provided</span>
+                        <span class="form-text" *ngIf="!bookForm.get('authorId').valid && bookForm.get('authorId').touched">Author is invalid or not provided</span>
                     </div>
 
                     <div>
